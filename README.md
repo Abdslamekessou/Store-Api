@@ -68,6 +68,7 @@ npm run dev
 ## 📁 Project Structure
 
 store-api/
+
 │ 
 
 ├── controllers/
