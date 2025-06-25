@@ -65,10 +65,44 @@ npm run dev
 
   ## 📁 Project Structure
 
-.store-api/
-.│
+## 📁 Project Structure
 
-.├── .controllers/
+store-api/
+│ 
+
+├── controllers/
+
+
+│ └── products.js
+│
+
+
+├── models/
+
+
+│ └── product.js
+│
+
+├── routes/
+
+
+│ └── products.js
+│
+
+├── app.js
+
+
+├── .env
+
+
+├── .gitignore
+
+
+├── package.json
+
+
+
+└── README.md 
 
 
 ## 💡 Credits
