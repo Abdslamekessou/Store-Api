@@ -66,29 +66,27 @@ npm run dev
 ## 📁 Project Structure
 
 store-api/
-│ 
-├── controllers/
-
-│ └── products.js
 │
-
-├── models/
-
-│ └── product.js
+├── controllers/         # Handles request logic
+│   └── products.js      # Controller for product routes
 │
-├── routes/
-
-│ └── products.js
+├── models/              # Mongoose schemas and models
+│   └── product.js       # Product schema definition
 │
-├── app.js
+├── routes/              # Application routes
+│   └── products.js      # Product-related API routes
+│
+├── config/              # Optional: DB connection or config files (if used)
+│
+├── middleware/          # Optional: custom error handlers, async wrappers
+│
+├── app.js               # Main Express app setup
+├── server.js            # Entry point (if separated from app.js)
+├── .env                 # Environment variables
+├── .gitignore           # Files/folders to ignore in Git
+├── package.json         # Project metadata and dependencies
+└── README.md            # Project overview and documentation
 
-├── .env
-
-├── .gitignore
-
-├── package.json
-
-└── README.md
 
 
 ## 💡 Credits
