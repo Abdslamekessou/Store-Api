@@ -75,6 +75,7 @@ store-api/
 
 
 │ └── products.js
+
 │
 
 
@@ -82,12 +83,14 @@ store-api/
 
 
 │ └── product.js
+
 │
 
 ├── routes/
 
 
 │ └── products.js
+
 │
 
 ├── app.js
