@@ -65,9 +65,9 @@ npm run dev
 
   ## 📁 Project Structure
 
-store-api/
+.store-api/
 .│
-.├── controllers/
+.├── .controllers/
 
 
 ## 💡 Credits
