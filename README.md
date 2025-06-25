@@ -16,8 +16,9 @@ It supports powerful features like filtering, sorting, pagination, and numeric q
 
 ### 1. Clone the repository
 
-git clone https://github.com/Abdslamekessou/Store-Api.git
-cd Store-Api
+1-git clone https://github.com/Abdslamekessou/Store-Api.git
+
+2-cd Store-Api
 
 
 ### 2. Install dependencies
