@@ -63,6 +63,12 @@ npm run dev
 - **Numeric Filters:**  
   `/api/v1/products?numericFilters=price>30,rate>=4.5`
 
+  ## 📁 Project Structure
+
+store-api/
+│
+├── controllers/
+
 
 ## 💡 Credits
 
