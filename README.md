@@ -67,25 +67,25 @@ npm run dev
 
 store-api/
 │
-├── controllers/         # Handles request logic
-│   └── products.js      # Controller for product routes
+├── controllers/ # Handles request logic
+│ └── products.js # Controller for product routes
 │
-├── models/              # Mongoose schemas and models
-│   └── product.js       # Product schema definition
+├── models/ # Mongoose schemas and models
+│ └── product.js # Product schema definition
 │
-├── routes/              # Application routes
-│   └── products.js      # Product-related API routes
+├── routes/ # Application routes
+│ └── products.js # Product-related API routes
 │
-├── config/              # Optional: DB connection or config files (if used)
+├── config/ # (Optional) DB connection or config files
 │
-├── middleware/          # Optional: custom error handlers, async wrappers
+├── middleware/ # (Optional) Error handlers, async wrappers
 │
-├── app.js               # Main Express app setup
-├── server.js            # Entry point (if separated from app.js)
-├── .env                 # Environment variables
-├── .gitignore           # Files/folders to ignore in Git
-├── package.json         # Project metadata and dependencies
-└── README.md            # Project overview and documentation
+├── app.js    # Express app setup
+├── server.js     # Entry point (if separated from app.js)
+├── .env         # Environment variables
+├── .gitignore       # Ignored files and folders in Git
+├── package.json       # Project metadata and dependencies
+└── README.md       # Project overview and documentation
 
 
 
