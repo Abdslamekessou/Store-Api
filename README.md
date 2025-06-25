@@ -63,31 +63,6 @@ npm run dev
 - **Numeric Filters:**  
   `/api/v1/products?numericFilters=price>30,rate>=4.5`
 
-## 📁 Project Structure
-
-store-api/
-│
-├── controllers/ # Handles request logic
-│ └── products.js # Controller for product routes
-│
-├── models/ # Mongoose schemas and models
-│ └── product.js # Product schema definition
-│
-├── routes/ # Application routes
-│ └── products.js # Product-related API routes
-│
-├── config/ # (Optional) DB connection or config files
-│
-├── middleware/ # (Optional) Error handlers, async wrappers
-│
-├── app.js    # Express app setup
-├── server.js     # Entry point (if separated from app.js)
-├── .env         # Environment variables
-├── .gitignore       # Ignored files and folders in Git
-├── package.json       # Project metadata and dependencies
-└── README.md       # Project overview and documentation
-
-
 
 ## 💡 Credits
 
